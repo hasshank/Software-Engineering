@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - UniMate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="/">UniMate</a>
+    </div>
+</nav>
+<div class="container mt-5">
+    <div class="card shadow-sm mx-auto" style="max-width: 500px;">
+        <div class="card-body">
+            <h3 class="mb-3 text-center">Register as a Student</h3>
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Interests (comma-separated)</label>
+                    <input type="text" name="interests" class="form-control">
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary" type="submit">Register</button>
+                </div>
+            </form>
+            <div class="text-center mt-3">
+                <a href="/" class="text-decoration-none">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
